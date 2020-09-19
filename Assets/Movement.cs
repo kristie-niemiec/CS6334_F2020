@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Movement : MonoBehaviour
 {
     private CharacterController controller;
@@ -29,5 +30,8 @@ public class Movement : MonoBehaviour
 
         move.y -= gravity * Time.deltaTime;
         controller.Move(move * Time.deltaTime * speed);
+
+        
+
     }
 }

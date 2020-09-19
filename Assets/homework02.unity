@@ -295,6 +295,7 @@ GameObject:
   - component: {fileID: 274409200}
   - component: {fileID: 274409199}
   - component: {fileID: 274409198}
+  - component: {fileID: 274409201}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -376,6 +377,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274409196}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &274409201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274409196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070ffe7f740ca3f4b87d8b5a0680cddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  gravity: 15
 --- !u!1 &424334556
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +403,7 @@ GameObject:
   - component: {fileID: 424334560}
   - component: {fileID: 424334559}
   - component: {fileID: 424334558}
+  - component: {fileID: 424334561}
   m_Layer: 0
   m_Name: Cube2
   m_TagString: Untagged
@@ -469,6 +485,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424334556}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &424334561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424334556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110a87358e209cc4f9c78c97918e4df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinForce: 2
 --- !u!1001 &486759457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1404,6 +1433,7 @@ GameObject:
   - component: {fileID: 2101122515}
   - component: {fileID: 2101122514}
   - component: {fileID: 2101122513}
+  - component: {fileID: 2101122516}
   m_Layer: 0
   m_Name: Cube3
   m_TagString: Untagged
@@ -1485,3 +1515,15 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101122511}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2101122516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101122511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601226df310e013478eac3311dd895f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
